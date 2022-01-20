@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/mvc_motors"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="1068dp"
+            android:background="#CCCCCC"
+            android:text=" • You can rent ATV or Buggy, only if you hold a Full Licence. \n\n
+• The vehicles you hire are thoroughly checked over by trained mechanics, so the vehicles need to be returned the same condition they were given to you, and if any damage is done, don’t try and hide it or say I didn’t realize as they know their vehicles inside out.\n\n
+• Its best if when you go to hire the vehicle, you go over it with the sales person, and any damage seen you can both agree that it was there to begin with.\n\n
+• Don’t think that cheap is a better value, you get  what you pay for. It may cost you a little more for a newer well maintained vehicle but you know you will be riding back, not pushing them back.
+\n\n
+Rates Include: \n
+• NEW VEHICLES \n
+• MAINTENANCE,OIL AND CHANGE OF VEHICLE IN CASE OF BREAKDOWN \n
+( The vehicles you hire are thoroughly checked over by trained mechanics, so the vehicles need to be returned the same condition they were given to you ) \n
+• FREE SERVICE \n
+• FREE TRANSPORT TO AND FROM THE SHOP \n
+• CRASH HELMETS \n
+• PRICES ARE IN EURO
+\n\n
+Conditions of Rentals: \n\n
+
+DRIVERS AGE: Minimum: 17 years old \n
+ MINIMUM RENTAL: One day (24 hours) \n
+ FUEL: Is paid by the renter and it is not refundable \n
+PAYMENT: To be paid at the time of delivery. Cash or credit cards are accepted.\n
+\n
+WARNING \n\n
+• All vehicles is only to be driven on correct road surfaces \n
+• Do not drive on off road surfaces such as dirt tracks ( if you break down and/or damage the vehicle on dirt track or other unsuitable surfaces you will be responsible for towing and any incurred damage to the vehicle.)
+\n\n
+
+"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

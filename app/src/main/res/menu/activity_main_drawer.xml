@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_baseline_book_online_24"
+            android:title="@string/menu_book" />
+        <item
+            android:id="@+id/nav_placesToVisit"
+            android:icon="@drawable/ic_baseline_place_24"
+            android:title="@string/menu_placesToVisit" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_aboutUs" />
+        <item
+            android:id="@+id/nav_requirements"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/menu_requirements" />
+        <item
+            android:id="@+id/nav_rateUs"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="@string/menu_rateUs" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_profile" />
+
+    </group>
+</menu>
